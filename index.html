@@ -331,6 +331,11 @@ referrerpolicy="no-referrer" />
         </div>
     </div>
 </div>
+<div class="footer-group">
+    <p class="footer-s">Subscribe</p>
+    <input type="text" class="footer-input"
+    placeholder="Email">
+   </div>
     </footer>
     <div class="backdrop is-hidden" data-modal >
         <div class="modal">
@@ -340,7 +345,7 @@ referrerpolicy="no-referrer" />
                 </svg>
             </button>
             <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-form"></form>
+        <form class="modal-form">
         <div class="modal-group">
         <label for="name" class="modal-label-text">Name</label>
         <div class="input-wrap">
@@ -379,6 +384,7 @@ referrerpolicy="no-referrer" />
         </div>
         <div class="modal-group">
             <label for="user-text" class="modal-label-text">Comment</label>
+            <div class="textarea">
             <textarea 
             name="user-text" 
             id="user-text"
@@ -386,6 +392,7 @@ referrerpolicy="no-referrer" />
             placeholder="Text input"
             ></textarea>
         </div>
+    </div>
         <div class="modal-group">
         <input class="checkbox-modal visually-hidden"
         type="checkbox" 
@@ -402,7 +409,8 @@ referrerpolicy="no-referrer" />
             I accept the terms and conditions of the <a href="" > Privacy Policy</a></label>
     </div>
        <button type="submit" class="sent-btn">Send</button>
-        </div>
+        </form>
+    </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
