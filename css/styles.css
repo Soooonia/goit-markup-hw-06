@@ -695,7 +695,7 @@ width: 24px;
 background: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
-
+transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:focus,
@@ -722,6 +722,7 @@ margin-bottom: 16px;
 .modal-icon{
   width: 8px;
   height: 8px;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input{
