@@ -732,6 +732,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 padding-left: 32px;
 outline: transparent;
+background: #FCFCFC;
 transition: border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -779,6 +780,7 @@ border-radius: 4px;
 outline: transparent;
 padding: 16px;
 resize: none;
+background: #FCFCFC;
 }
 
 .modal-coment::placeholder{
