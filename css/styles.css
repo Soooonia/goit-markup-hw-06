@@ -912,6 +912,7 @@ align-items: center;
 .footer-subscribe-btn{
     display: inline-flex;
     gap: 16px;
+  
     background-color:var(--primary-accent-color);
     padding-top: 8px;
     padding-bottom: 8px;
