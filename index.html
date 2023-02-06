@@ -333,8 +333,19 @@ referrerpolicy="no-referrer" />
 </div>
 <div class="footer-group">
     <p class="footer-s">Subscribe</p>
-    <input type="text" class="footer-input"
+    <form>
+    <input 
+    type="text"
+    name="email"
+    class="footer-input"
     placeholder="Email">
+    <button class="footer-subscribe-btn" type="submit">
+        Subscribe
+        <svg class="footer-icon-subscribe" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-subscribe"></use>
+        </svg>
+     </button>
+    </form>
    </div>
     </footer>
     <div class="backdrop is-hidden" data-modal >
