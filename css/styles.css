@@ -906,6 +906,10 @@ align-items: center;
 
 }
 
+.footer-group{
+  margin-left: 80px;
+}
+
 .footer-icon-subscribe{
   fill:#FFFFFF
 }
